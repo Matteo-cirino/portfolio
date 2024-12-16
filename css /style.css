@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Entête de la page */
+
+
+ul{
+	    
+        display: flex;
+	    background-color: white;
+	    padding: 10px;
+	    gap: 50px;
+	    justify-content: space-around;
+	
+	}
+	
+	nav{
+	
+	    padding-block-end: 20px;
+    
+	
+}
+
+
+
+/* NOM PRENOM */
+
+.name {
+	
+        text-align: center;
+	    color:white;
+	    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+	    font-size: x-large;
+}
+
+/* A PROPOS DE MOI */
+
+#A-propos-de-moi {
+
+	color: white;
+}
+
+h1{
+
+    text-align: center;
+    padding: 40px;
+    font-family: Chalkboard;
+    font-size: x-large;
+
+}
+
+#A-propos-de-moi p{
+
+    text-align: center;
+
+}
+
+/*EXPERIENCE*/
+
+#Expérience{
+
+    color: white;
+
+}
+
+h2{
+	
+    text-align: center;
+	padding: 40px;
+	font-family: Chalkboard;
+	font-size: x-large;
+}
+
+#Expérience p{
+
+    text-align: center;
+    color:white ;
+
+}
+
+/*TRAVAUX A REALISE */
+
+#Travaux-réalisé{
+
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+
+h3{
+
+    text-align: center;
+    padding: 40px;
+    font-family: Chalkboard;
+    font-size: x-large;
+
+}
+
+/* IMAGE */
+
+img{
+
+	display: initial;
+	padding: 50px;
+	filter: invert(100%);
+	
+}
+
+/*footer*/
+
+.Mention-Légale{
+
+    text-align: center;
+    padding-block-end: 300px;
+    color: white;
+    padding: 40px;
+
+}
+
+.Mention-Légale a{
+
+    color: white;
+
+}
+
+
+#Me-contacter{
+
+    color: white;
+
+}
+
+#Me-contacter p{
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+body {
+
+    background-color: black;  
+    margin: 0px;
+	
+}
+
+
+@media screen and (min-width: 576px){
+
+/* Entête de la page */
+
+
+ul{
+	
+    display: flex;
+	background-color: white;
+	padding: 10px;
+	gap: 50px;
+	justify-content: space-around;
+	
+	}
+	
+	nav{
+	
+	padding-block-end: 20px;
+	
+	
+}
+
+
+
+/* NOM PRENOM */
+
+.name {
+	
+    text-align: center;
+	color:white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+	font-size: x-large;
+}
+
+/* A PROPOS DE MOI */
+
+#A-propos-de-moi {
+
+	color: white;
+}
+
+h1{
+
+    text-align: center;
+    padding: 40px;
+    font-family: Chalkboard;
+    font-size: x-large;
+
+}
+
+#A-propos-de-moi p{
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*EXPERIENCE*/
+
+#Expérience{
+
+    color: white;
+
+}
+
+h2{
+	
+    text-align: center;
+	padding: 40px;
+	font-family: Chalkboard;
+	font-size: x-large;
+}
+
+#Expérience p{
+
+    text-align: center;
+    color:white ;
+
+}
+
+/*TRAVAUX A REALISE */
+
+#Travaux-réalisé{
+
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+
+h3{
+    
+    text-align: center;
+    padding: 40px;
+    font-family: Chalkboard;
+    font-size: x-large;
+}
+
+/* IMAGE */
+
+img{
+
+	display: initial;
+	padding: 50px;
+	filter: invert(100%);
+	
+}
+
+img p{
+
+	font-family: Arial Black;
+
+
+}
+
+/*footer*/
+
+.Mention-Légale{
+
+    text-align: center;
+    padding-block-end: 300px;
+    color: white;
+    padding: 40px;
+
+}
+
+.Mention-Légale a{
+
+    color: white;
+
+}
+
+
+#Me-contacter{
+
+    color: white;
+
+}
+
+#Me-contacter p{
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+body {
+
+    background-color: black;  
+    margin: 0px;
+	
+}
+
+}
+	
+	
